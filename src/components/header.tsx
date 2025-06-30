@@ -14,16 +14,19 @@ import {
   DropdownMenuTrigger,
 } from './ui/dropdown-menu';
 import { MenuMobile } from './menu-mobile';
+import { NavLinks } from './nav-links';
 
 export function Header() {
   const t = useTranslations();
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 transition-all duration-300">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur-md supports-[backdrop-filter]:bg-background/60 shadow-sm">
+      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-center space-x-2 text-primary font-medium py-1">
           <span>🚚</span>
-          <span className="mt-1 text-sm">{t('common.free_shipping')}</span>
+          <span className="mt-1 text-sm">
+            {t('common.free_shipping_description')}
+          </span>
         </div>
 
         <div className="h-16 flex items-center justify-between gap-5">
@@ -108,6 +111,8 @@ export function Header() {
           <MenuMobile />
         </div>
       </div>
+
+      <NavLinks />
     </header>
   );
 }

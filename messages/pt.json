@@ -1,4 +1,38 @@
 {
+  "home": {
+    "explore_products": {
+      "title": "Produtos Sustentáveis para um Futuro Melhor",
+      "subtitle": "Descubra nossa coleção de produtos eco-friendly e de alta qualidade",
+      "explore": "Explorar Produtos"
+    },
+    "featured_products": {
+      "title": "Produtos em Destaque",
+      "see_products": "Ver Todos os Produtos"
+    },
+    "features": {
+      "fast_delivery": {
+        "title": "Entrega Rápida",
+        "description": "Entrega em até 24h para sua região"
+      },
+      "safe_purchase": {
+        "title": "Compra Segura",
+        "description": "Seus dados protegidos com criptografia"
+      },
+      "support": {
+        "title": "Suporte 24/7",
+        "description": "Atendimento sempre disponível"
+      },
+      "qualidade_premium": {
+        "title": "Qualidade Premium",
+        "description": "Produtos selecionados e testados"
+      }
+    },
+    "footer": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Discover our full collection and find the perfect product for you.",
+      "explore": "Explorar Produtos"
+    }
+  },
   "common": {
     "currency": "R$",
     "loading": "Carregando...",
@@ -7,7 +41,14 @@
     "login": "Entrar",
     "logout": "Sair",
     "register": "Cadastrar",
-    "free_shipping": "Frete grátis a partir de R$ 199 • Até 12x sem juros"
+    "buy": "Comprar",
+    "unavailable": "Indisponível",
+    "available": "Disponível",
+    "out_of_stock": "fora de estoque",
+    "new": "Novo",
+    "best_seller": "Mais vendido",
+    "free_shipping": "frete GRÁTIS",
+    "free_shipping_description": "Frete grátis a partir de R$ 199 • Até 12x sem juros"
   },
   "components": {
     "nav": {

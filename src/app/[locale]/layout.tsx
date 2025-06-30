@@ -6,6 +6,7 @@ import { ThemeProvider } from '@/providers/theme-provider';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
+import { Header } from '@/components/header';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -34,7 +35,12 @@ export default async function RootLayout({
     <html lang={locale} suppressHydrationWarning>
       <body className={`${inter.className} antialiased`}>
         <NextIntlClientProvider>
-          <ThemeProvider>{children}</ThemeProvider>
+          <ThemeProvider>
+            <div className="min-h-screen bg-background text-foreground transition-colors duration-300">
+              <Header />
+              {children}
+            </div>
+          </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>

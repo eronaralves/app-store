@@ -1,4 +1,38 @@
 {
+  "home": {
+    "explore_products": {
+      "title": "Sustainable Products for a Better Future",
+      "subtitle": "Discover our collection of high-quality, eco-friendly products",
+      "explore": "Explore Products"
+    },
+    "featured_products": {
+      "title": "Featured Products",
+      "see_products": "View All Products"
+    },
+    "features": {
+      "fast_delivery": {
+        "title": "Fast Delivery",
+        "description": "Delivery within 24h in your region"
+      },
+      "safe_purchase": {
+        "title": "Secure Purchase",
+        "description": "Your data protected with encryption"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Always available customer service"
+      },
+      "qualidade_premium": {
+        "title": "Premium Quality",
+        "description": "Handpicked and tested products"
+      }
+    },
+    "footer": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Discover our full collection and find the perfect product for you.",
+      "explore": "Explore Products"
+    }
+  },
   "common": {
     "currency": "$",
     "loading": "Loading...",
@@ -7,7 +41,14 @@
     "login": "Login",
     "logout": "Logout",
     "register": "Register",
-    "free_shipping": "Free shipping from R$ 199 • Up to 12 interest-free installments"
+    "buy": "Buy",
+    "unavailable": "Unavailable",
+    "available": "Available",
+    "out_of_stock": "Out of stock",
+    "new": "New",
+    "best_seller": "Best Seller",
+    "free_shipping": "FREE shipping",
+    "free_shipping_description": "Free shipping from R$ 199 • Up to 12 interest-free installments"
   },
   "components": {
     "nav": {
