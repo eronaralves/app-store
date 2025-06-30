@@ -1,1 +1,22 @@
-{}
+{
+  "common": {
+    "currency": "$",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "free_shipping": "Free shipping from R$ 199 • Up to 12 interest-free installments"
+  },
+  "components": {
+    "nav": {
+      "home": "Home",
+      "products": "Products",
+      "cart": "Cart",
+      "contact": "Contact",
+      "wishlist": "Wishlist",
+      "profile": "Profile"
+    }
+  }
+}

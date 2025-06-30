@@ -1,1 +1,22 @@
-{}
+{
+  "common": {
+    "currency": "R$",
+    "loading": "Carregando...",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "login": "Entrar",
+    "logout": "Sair",
+    "register": "Cadastrar",
+    "free_shipping": "Frete grátis a partir de R$ 199 • Até 12x sem juros"
+  },
+  "components": {
+    "nav": {
+      "home": "Início",
+      "products": "Produtos",
+      "cart": "Carrinho",
+      "contact": "Contato",
+      "wishlist": "Lista de Desejos",
+      "profile": "Perfil"
+    }
+  }
+}
