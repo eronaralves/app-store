@@ -28,8 +28,8 @@ export function ProductCard({ product }: ProductCardProps) {
   const t = useTranslations('common');
 
   return (
-    <Card className="group hover:shadow-xl transition-all duration-300 hover:scale-[1.02] relative overflow-hidden">
-      <CardContent className="p-0">
+    <Card className="flex-1 group hover:shadow-xl transition-all duration-300 hover:scale-[1.02] relative overflow-hidden">
+      <CardContent className="p-0 h-full flex flex-col">
         <div className="relative overflow-hidden">
           <Image
             src={product.image}
@@ -72,7 +72,7 @@ export function ProductCard({ product }: ProductCardProps) {
           )}
         </div>
 
-        <div className="p-4 space-y-3">
+        <div className="p-4 flex flex-col space-y-3 flex-1">
           {product.freeShipping && (
             <div className="flex items-center text-green-600 text-xs font-medium">
               <Truck className="h-3 w-3 mr-1" />
@@ -132,7 +132,7 @@ export function ProductCard({ product }: ProductCardProps) {
 
           <Button
             disabled={!product.inStock}
-            className="w-full bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70"
+            className="w-full mt-auto bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70"
           >
             <ShoppingCart className="h-4 w-4 mr-2" />
             {product.inStock ? t('buy') : t('unavailable')}

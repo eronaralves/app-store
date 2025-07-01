@@ -33,6 +33,10 @@
       "explore": "Explorar Produtos"
     }
   },
+  "products": {
+    "title": "Produtos",
+    "subtitle": "produtos encontrados"
+  },
   "common": {
     "currency": "R$",
     "loading": "Carregando...",
@@ -58,6 +62,41 @@
       "contact": "Contato",
       "wishlist": "Lista de Desejos",
       "profile": "Perfil"
+    },
+    "filters": {
+      "title": "Filtros",
+      "clear_filters": "Limpar filtros",
+      "categories": {
+        "title": "Categorias",
+        "items": {
+          "electronics": "Eletrônicos",
+          "clothing": "Roupas",
+          "home": "Casa",
+          "sports": "Esportes",
+          "books": "Livros",
+          "beauty": "Beleza"
+        }
+      },
+      "price_range": {
+        "title": "Faixa de Preço"
+      },
+      "brands": {
+        "title": "Marcas",
+        "items": {
+          "samsung": "Samsung",
+          "apple": "Apple",
+          "nike": "Nike",
+          "adidas": "Adidas",
+          "sony": "Sony",
+          "lg": "LG"
+        }
+      },
+      "availability": {
+        "title": "Disponibilidade",
+        "items": {
+          "in_stock": "Apenas produtos em estoque"
+        }
+      }
     }
   }
 }

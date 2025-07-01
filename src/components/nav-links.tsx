@@ -23,7 +23,11 @@ export function NavLinks() {
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <nav className="hidden md:flex items-center space-x-1 py-3">
           {navItems.map((item) => {
-            const isActive = pathname.replace(locale, '') === item.path;
+            const isActive =
+              pathname.replace(
+                `${item.path !== '/' ? `/${locale}` : locale}`,
+                ''
+              ) === item.path;
 
             return (
               <Link

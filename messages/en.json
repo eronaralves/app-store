@@ -33,6 +33,10 @@
       "explore": "Explore Products"
     }
   },
+  "products": {
+    "title": "Products",
+    "subtitle": "products found"
+  },
   "common": {
     "currency": "$",
     "loading": "Loading...",
@@ -58,6 +62,41 @@
       "contact": "Contact",
       "wishlist": "Wishlist",
       "profile": "Profile"
+    },
+    "filters": {
+      "title": "Filters",
+      "clear_filters": "Clear filters",
+      "categories": {
+        "title": "Categories",
+        "items": {
+          "electronics": "Electronics",
+          "clothing": "Clothing",
+          "home": "Home",
+          "sports": "Sports",
+          "books": "Books",
+          "beauty": "Beauty"
+        }
+      },
+      "price_range": {
+        "title": "Price Range"
+      },
+      "brands": {
+        "title": "Brands",
+        "items": {
+          "samsung": "Samsung",
+          "apple": "Apple",
+          "nike": "Nike",
+          "adidas": "Adidas",
+          "sony": "Sony",
+          "lg": "LG"
+        }
+      },
+      "availability": {
+        "title": "Availability",
+        "items": {
+          "in_stock": "Only products in stock"
+        }
+      }
     }
   }
 }
